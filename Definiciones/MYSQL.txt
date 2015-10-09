@@ -1,0 +1,7 @@
+MYSQL:
+
+¿QuÎáÎéÎİ es MySQL?
+
+MySQL es un sistema de administraciÎáÎõÎån de bases de datos (Database Management System, DBMS) para bases de datos relacionales. AsÎáÎõÎá, MySQL no es mÎáÎõÎİs que una aplicaciÎáÎõÎån que permite gestionar archivos llamados de bases de datos.
+
+Existen muchos tipos de bases de datos, desde un simple archivo hasta sistemas relacionales orientados a objetos. MySQL, como base de datos relacional, utiliza multiples tablas para almacenar y organizar la informaciÎáÎõÎån. MySQL fue escrito en C y C++ y destaca por su gran adaptaciÎáÎõÎån a diferentes entornos de desarrollo, permitiendo su interactuaciÎáÎõÎån con los lenguajes de programaciÎáÎõÎån mÎáÎõÎİs utilizados como PHP, Perl y Java y su integraciÎáÎõÎån en distintos sistemas operativos.
