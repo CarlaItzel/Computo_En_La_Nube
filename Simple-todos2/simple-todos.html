@@ -1,0 +1,142 @@
+<!-- EJEMPLO 1: Creating an app -->
+<!-- <head>
+  <title>Simple-Todo</title>
+</head>
+
+<body>
+  <h1>Prueba 1</h1>
+  <ul>
+    <li>Elemento1</li>
+    <li>Elemento 2</li>
+  </ul>
+  <form>
+    <input type="text" id="NuevoElemento" />
+    <input type="submit" id="Agregar" value="Add" />
+  </form>
+</body> -->
+ 
+
+<!-- EJEMPLO 2: Templates -->
+<!-- <head>
+  <title>Todo List</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Hi World!!</h1>
+    </header>
+    <ul>
+
+      {{#each tasks}} 
+//Tiene >
+        {{> task}} 
+
+      {{/each}}
+
+    </ul>
+
+  </div>
+
+</body>
+
+<template name="task">
+
+  <li>{{text}}</li>
+
+</template> -->
+ 
+ <!-- EJEMPLO 2.1: Templates modificado -->
+ <!-- <head>
+
+  <title>Computo en la Nube</title>
+
+</head>
+
+<body>
+  <h1>Hi World!!</h1>
+
+      {{>lista}} 
+      {{> controles}} 
+
+</body>
+
+<template name="lista">
+  <ul>
+    <li>Creacion de la app</li>
+    <li>Modificación del código original</li>
+    <li>templates</li>
+  </ul>
+</template>
+
+<template name="controles">
+  <form>
+    <input type="text" id="NuevoElemento" />
+    <input type="submit" id="Agregar" Value="Add" />
+  </form>
+</template> -->
+
+<!-- EJEMPLO 2.2: Template modificado 2 -->
+<!-- <head>
+  <title>Computo en la Nube</title>
+</head>
+
+<body>
+  <h1>Hi World!!</h1>
+
+      {{> lista}} 
+      {{> controles}} 
+</body>
+
+ <template name="lista">
+  <ul>
+    {{#each items}}
+      <li>{{description}}</li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="controles">
+  <form>
+    <input type="text" id="NuevoElemento" />
+    <input type="submit" id="Agregar" Value="Add" />
+  </form>
+</template> -->
+
+
+<!-- EJEMPLO 3: -->
+<head>
+  <title>Todo List</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+
+      <h1>Todo List</h1>
+
+    </header>
+
+    <ul>
+
+      {{#each tasks}}
+
+        {{> task}}
+
+      {{/each}}
+
+    </ul>
+
+  </div>
+
+</body>
+
+<template name="task">
+
+  <li>{{text}}</li>
+
+</template>
+
+
